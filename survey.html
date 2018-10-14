@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Survey me pls</h1>
+    <p id="description">Who are you?</p>
+    <form id="survey-form">
+        
+        
+        <label for="name" id="name-label">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter zour name" required><br>
+        
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email" required><br>
+        
+        
+        <label for="number" id="number-label">Age:</label>
+        <input type="number" name="Age" id="number" placeholder="Enter your age" min="18" max="80" required><br>
+        
+        What do you do?
+        <select id="dropdown">
+            <option value="student">student</option>
+            <option value="working">working</option>
+            <option value="hustlin">hustlin</option>
+            <option value="conorMcgregor">conorMcgregor</option>
+        </select><br>
+        
+        What do you want in life?
+        <ul style="list-style-type:none">
+            <li><label>Hoes<input name="mybtns" value="1" type="radio"></label></li>
+            <li><label>Money<input name="mybtns"  value="2" type="radio"></label></li>
+            <li><label>Fame<input name="mybtns"  value="3" type="radio"></label></li>
+        </ul><br>
+        Whos your idol?
+        <ul style="list-style-type:none">
+            <li><label for="mycx1">Jimmy Hendrix<input type="checkbox" value="1" name="mycx1"></label></li>
+            <li><label for="mycx2">Albert Einstein<input type="checkbox" value="2" name="mycx2"></label></li>
+            <li><label for="mycx3">Tom Cruise<input type="checkbox" value="3" name="mycx3"></label></li>
+        </ul><br>
+        Enter some comments:
+        <textarea name="comments" cols="30" rows="5" placeholder="Enter comment"></textarea><br>
+        
+        <input type="submit" value="Submit" id="submit">
+    </form>
+</body>
+</html>
